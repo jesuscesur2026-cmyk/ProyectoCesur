@@ -1,0 +1,6 @@
+Falta la llave de cierre "}" en el bloque de instrucciones o la definici¢n de 
+tipo.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordEx 
+   ception
+    + FullyQualifiedErrorId : MissingEndCurlyBrace
+ 

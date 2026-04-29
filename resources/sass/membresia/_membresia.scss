@@ -1,0 +1,75 @@
+.membresia {
+    padding: 0 5% 2% 5%;
+
+    &__titulo {
+        text-align: center;
+        font-family: 'Titillium Web', sans-serif;
+    }
+
+    &__div {
+        width: 80%;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 3%;
+        text-align: center;
+        background-color: white;
+        -webkit-box-shadow: 10px 10px 6px -6px rgba(0, 0, 0, 0.83);
+        box-shadow: 10px 10px 6px -6px rgba(0, 0, 0, 0.83);
+        margin: 8% auto;
+        transition: .3s ease all;
+    }
+
+    &__precio {
+        font-size: 25px;
+        font-family: 'Titillium Web', sans-serif;
+    }
+
+    &__tiempo {
+        font-size: 17px;
+        font-family: 'Titillium Web', sans-serif;
+    }
+
+    &__a {
+        background-color: #D99255;
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        width: 44%;
+        padding: 3%;
+        border-radius: 3px;
+        font-family: 'Titillium Web', sans-serif;
+        margin-top: 5%;
+        border: 1px solid #D99255;
+        transition: .3s ease all;
+
+        &:hover {
+            background-color: #b0590e;
+            border: 1px solid #b0590e;
+        }
+    }
+}
+
+@media screen and (min-width:600px) {
+    .membresia__div {
+        width: 398px;
+    }
+
+    .membresia__precio {
+        font-size: 35px;
+    }
+
+    .membresia__tiempo {
+        font-size: 27px;
+    }
+}
+
+@media screen and (min-width:861px) {
+    .membresia {
+        display: flex;
+        gap: 5%;
+    }
+
+    .membresia__div:hover {
+        transform: scale(1.2);
+    }
+}

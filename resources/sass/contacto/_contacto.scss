@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Open+Sans&family=Roboto:wght@100;300;400&family=Space+Mono&family=Titillium+Web:wght@400;600&display=swap');
+
+.contacto__div {
+    text-align: center;
+    background-color: #D99255;
+    border-radius: 25px 25px 0 0;
+    color: white;
+}
+
+.contacto__titulo {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.contacto__titulo--padding {
+    padding: 5%;
+}
+
+.formulario {
+
+    &__label {
+        font-family: 'Titillium Web', sans-serif;
+    }
+
+    &__div {
+        width: 85%;
+        border: 1px solid white;
+        margin: auto;
+        padding: 5%;
+        background-color: white;
+        border-radius: 25px;
+        margin: 5% auto;
+    }
+
+    &__input {
+        background-color: #fbfbfb;
+        width: 97%;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid #D99255;
+        margin: 2% 0 5% 0;
+        padding-left: 3.5%;
+        font-family: 'Space Mono', monospace;
+    }
+
+    &__input:focus {
+        outline: 0;
+        border: 1px solid #97d848;
+    }
+
+    &__textarea {
+        background-color: #fbfbfb;
+        width: 97%;
+        height: 150px;
+        border-radius: 5px;
+        border: 1px solid #D99255;
+        margin: 2% 0 5% 0;
+        padding: 3.8% 0 0 3.5%;
+        font-family: 'Space Mono', monospace;
+        resize: none;
+    }
+
+    &__textarea:focus {
+        outline: 0;
+        border: 1px solid #97d848;
+    }
+
+    &__button {
+        font-family: 'Titillium Web', sans-serif;
+        padding: 2% 5%;
+        margin: 3% 0 5% 0;
+        background-color: #D99255;
+        border: 1px solid #D99255;
+        border-radius: 10px;
+        width: 97%;
+        cursor: pointer;
+        color: white;
+        transition: .3s ease all;
+
+        &:hover {
+            background-color: #b0590e;
+            border: 1px solid #b0590e;
+        }
+    }
+
+    &__span--color {
+        color: red;
+    }
+
+    &__p {
+        font-family: 'Titillium Web', sans-serif;
+    }
+
+    &__p--color {
+        color: red;
+    }
+
+    &__subtitulo {
+        font-size: 1em;
+        padding-bottom: 8.5%;
+        color: #0e0e0e;
+        font-family: 'Titillium Web', sans-serif;
+    }
+}

@@ -1,0 +1,45 @@
+.verify {
+    border: 1px solid rgb(236, 236, 236);
+    width: 90%;
+    margin: 5% auto;
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
+    padding: 5%;
+    text-align: justify;
+    font-size: 15px;
+
+    &__titulo {
+        text-align: center;
+        margin-bottom: 4%;
+        font-size: 24px;
+        font-family: 'Titillium Web', sans-serif;
+    }
+
+    &__div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__p {
+        font-family: 'Titillium Web', sans-serif;
+    }
+
+    &__boton {
+        margin: 4% 0 4% 0;
+        padding: 9px;
+        color: white;
+        border-radius: 10px;
+        background-color: #D99255;
+        border: 1px solid #D99255;
+        font-family: 'Titillium Web', sans-serif;
+        cursor: pointer;
+        font-size: 15px;
+        transition: .3s ease all;
+
+        &:hover {
+            background-color: #b0590e;
+            border: 1px solid #b0590e;
+        }
+    }
+}

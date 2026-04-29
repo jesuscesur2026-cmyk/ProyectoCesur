@@ -1,0 +1,28 @@
+.admin-inicio {
+    padding: 10px 11px;
+
+    &__h2 {
+        font-family: $title-font;
+        margin-bottom: 10px;
+        text-align: center;
+        font-family: $title-font
+    }
+
+    &__grafica {
+        border: 1px solid rgb(239, 232, 232);
+        background-color: rgb(239, 232, 232);
+        border-radius: 10px;
+        padding: 17px;
+        box-shadow: 14px 11px 7px -7px rgba(0, 0, 0, 0.73);
+        margin-bottom: 35px;
+    }
+
+    &__alquileres {
+        height: max-content;
+        border: 1px solid rgb(239, 232, 232);
+        background-color: rgb(239, 232, 232);
+        border-radius: 10px;
+        padding: 17px;
+        box-shadow: 14px 11px 7px -7px rgba(0, 0, 0, 0.73);
+    }
+}

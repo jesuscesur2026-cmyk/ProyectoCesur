@@ -1,0 +1,2 @@
+$keyPath = "$env:USERPROFILE\.ssh\id_ed25519"
+$process = Start-Process -FilePath "ssh-keygen" -ArgumentList "-t","ed25519","-C","jesusAguilar@local.test","-N","`" `"","-f",$keyPath -NoNewWindow -Wait -PassThru

@@ -1,0 +1,70 @@
+.wishlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+
+    &__corazon {
+        font-size: 5em;
+        color: rgb(180, 57, 57)
+    }
+
+    &__titulo {
+        font-size: 3em;
+        font-family: 'Titillium Web', sans-serif;
+    }
+
+    &__portada-libro {
+        width: 88.38px;
+        height: 118px;
+    }
+
+    &__tabla {
+        border-collapse: collapse;
+        margin: 3% 0 10% 0;
+    }
+
+    &__tabla-thead {
+        text-align: left;
+        font-size: 2em;
+    }
+
+    &__tabla-tr {
+        border-bottom: 1px solid #bdbcbc;
+    }
+
+    &__tabla-th,
+    &__tabla-td {
+        padding: 12px 4vw;
+        font-family: 'Titillium Web', sans-serif;
+    }
+
+    &__iconos {
+        font-size: 2em;
+        color: black;
+        transition: .3s ease color;
+        padding-left: 2%;
+
+        &:hover {
+            color: #D99255;
+        }
+    }
+
+    &__nada {
+        font-size: 1em;
+        margin-top: 3%;
+        color: rgb(170, 157, 157);
+        font-family: 'Titillium Web', sans-serif;
+    }
+
+    &__enlace {
+        font-size: 2em;
+        color: rgb(170, 157, 157);
+        margin-bottom: 5%;
+        font-family: 'Titillium Web', sans-serif;
+
+        &:hover {
+            color: rgb(99, 93, 93);
+        }
+    }
+}

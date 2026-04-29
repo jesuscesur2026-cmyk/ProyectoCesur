@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Open+Sans&family=Roboto:wght@100;300;400&display=swap');
+$mensajes-font: 'DM Sans', sans-serif;
+
+.mensaje {
+    background-color: rgb(0, 0, 0, .3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+
+    &__div {
+        width: 50%;
+        position: absolute;
+        top: 50%;
+        left: 27%;
+        background-color: white;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    &__div--success {
+        background-color: #DFF0D8;
+        border: 1px solid #5cd62c;
+        color: #0F5133;
+        font-family: $mensajes-font;
+    }
+
+    &__div--error {
+        background-color: #f0d8d8;
+        border: 1px solid #e49290;
+        color: #aa6161;
+        font-family: $mensajes-font;
+    }
+
+    &__h2 {
+        padding-bottom: 1%;
+        font-size: 1.5em;
+    }
+
+    &__cerrar {
+        display: block;
+        text-align: right;
+        line-height: 10px;
+        padding: 2% 2% 0 0;
+    }
+
+    &__icono {
+        color: black;
+        transition: .3s ease all;
+        cursor: pointer;
+
+        &:hover {
+            color: red;
+        }
+    }
+}
+
+.mensaje__error {
+    color: rgb(211, 49, 49);
+    font-family: $mensajes-font;
+}
+
+.mensaje__error-reset-password-fs {
+    font-size: .8rem;
+}
+
+.mensaje__error-updateEjemplar-fs {
+    font-size: 0.8rem;
+}
+
+.mensaje__error-registro-fs {
+    font-size: 0.8rem;
+}
+
+.mensaje__error-perfil-fs {
+    font-size: 0.8rem;
+}
+
+.mensaje__error-login-fs {
+    font-size: 1rem;
+}
+
+.mensaje__error--fs,
+.mensaje__exito--fs {
+    font-size: .8em;
+}
+
+.mensaje__exito {
+    color: rgb(43, 169, 43);
+    font-family: $mensajes-font;
+}
+
+.mensaje__exito-perfil {
+    color: rgb(43, 169, 43);
+    font-family: $mensajes-font;
+    display: inline-block;
+    margin: 0 0 10px 14px;
+}
+
+.mensaje__exito--center,
+.mensaje__error--center {
+    text-align: center;
+}
+
+.mensajes__error-ejemplar,
+.mensajes__error-autor {
+    width: 95%;
+    text-align: start;
+    margin: auto;
+}
